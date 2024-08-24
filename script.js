@@ -14,4 +14,10 @@ function calculateResult() {
     } catch (error) {
         display.value = 'Error';
     }
+    function ponto() {
+        display.value = '.';
+    }
+    function porcent(){
+        display.value = '%';
+    }
 }
