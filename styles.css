@@ -83,12 +83,13 @@ html {
 
 
 .calc-button:last-child:hover {
-    background-color: red;
+    background-color: rgb(234, 13, 13);
 
 }
 
 .calc-button:hover {
-    background-color: inherit;
+    background-color: rgba(77, 76, 76, 0.286);
+    color: white;
     border: 1px solid black;
     transition: 0.6s;
 
@@ -107,7 +108,7 @@ h1{
     margin: auto;
     display: flex;
     margin-left: 30%;
-    background-color: rgba(144, 152, 228, 0.886);
+    background-color: rgba(226, 230, 234, 0.886);
     max-width: 140px;
     padding: 10px;
     text-align: center;
@@ -118,17 +119,20 @@ h1{
 
 }
 h1:hover{
-    background-color: rgb(39, 34, 139);
+    background-color: rgba(85, 85, 87, 0.308);
     color: white;
     transition: 1s;
     
+    
 }
 .calc-button-row{
+    border: 1px solid rgba(110, 108, 108, 0.799);
     border-radius: 2vh
-    border
+ 
 
 }
 .calc-button-row:hover{
-    background-color: rgba(66, 63, 63, 0.199);
+    background-color: rgba(77, 76, 76, 0.286);
+    color: white;
     transition: 0.6s;
 }
